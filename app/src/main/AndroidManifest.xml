@@ -12,7 +12,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Kinetic">
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.MovieDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.MovieActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

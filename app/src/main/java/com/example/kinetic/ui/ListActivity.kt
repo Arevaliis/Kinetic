@@ -27,8 +27,8 @@ class ListActivity : AppCompatActivity() {
 
             intent.putExtra("titulo", pelicula.titulo)
             intent.putExtra("descripcion", pelicula.descripcion)
-            intent.putExtra("descripcion", pelicula.pelicula)
-            intent.putExtra("descripcion", pelicula.imagen)
+            intent.putExtra("pelicula", pelicula.pelicula)
+            intent.putExtra("imagen", pelicula.imagen)
 
             startActivity(intent)
         }

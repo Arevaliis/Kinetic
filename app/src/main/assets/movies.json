@@ -1,0 +1,122 @@
+[
+  {
+    "titulo": "Inception",
+    "descripcion": "Un ladrón experto en infiltrarse en los sueños de otras personas mediante tecnología avanzada es contratado para implantar una idea en la mente de un objetivo, enfrentándose a su propio pasado.",
+    "pelicula": "inception",
+    "imagen": "poster_inception"
+  },
+  {
+    "titulo": "Interstellar",
+    "descripcion": "En un futuro donde la Tierra se vuelve inhabitable, un grupo de astronautas viaja a través de un agujero de gusano en busca de un nuevo hogar para la humanidad.",
+    "pelicula": "interstellar",
+    "imagen": "poster_interstellar"
+  },
+  {
+    "titulo": "The Dark Knight",
+    "descripcion": "Batman enfrenta al Joker, un criminal caótico que pone a prueba los límites morales de Gotham.",
+    "pelicula": "dark_knight",
+    "imagen": "poster_dark_knight"
+  },
+  {
+    "titulo": "Titanic",
+    "descripcion": "Un romance entre dos jóvenes de distintas clases sociales a bordo del transatlántico Titanic, que terminará en tragedia.",
+    "pelicula": "titanic",
+    "imagen": "poster_titanic"
+  },
+  {
+    "titulo": "Avatar",
+    "descripcion": "Un exmarine se infiltra en el planeta Pandora, donde termina involucrándose en la lucha entre humanos invasores y los Na'vi.",
+    "pelicula": "avatar",
+    "imagen": "poster_avatar"
+  },
+  {
+    "titulo": "Gladiator",
+    "descripcion": "Un general romano traicionado se convierte en gladiador para vengarse del emperador que destruyó su vida.",
+    "pelicula": "gladiator",
+    "imagen": "poster_gladiator"
+  },
+  {
+    "titulo": "Forrest Gump",
+    "descripcion": "La vida de Forrest Gump, un hombre sencillo que sin querer participa en eventos históricos clave de Estados Unidos.",
+    "pelicula": "forrest_gump",
+    "imagen": "poster_forrest_gump"
+  },
+  {
+    "titulo": "The Matrix",
+    "descripcion": "Un hacker descubre que la realidad es una simulación creada por máquinas que esclavizan a la humanidad.",
+    "pelicula": "matrix",
+    "imagen": "poster_matrix"
+  },
+  {
+    "titulo": "Fight Club",
+    "descripcion": "Un hombre insatisfecho crea un club de lucha clandestino que evoluciona en algo mucho más peligroso.",
+    "pelicula": "fight_club",
+    "imagen": "poster_fight_club"
+  },
+  {
+    "titulo": "Pulp Fiction",
+    "descripcion": "Historias entrelazadas de criminales en Los Ángeles con violencia, humor negro y destinos cruzados.",
+    "pelicula": "pulp_fiction",
+    "imagen": "poster_pulp_fiction"
+  },
+  {
+    "titulo": "The Shawshank Redemption",
+    "descripcion": "Un banquero condenado injustamente encuentra esperanza y amistad dentro de una prisión de máxima seguridad.",
+    "pelicula": "shawshank",
+    "imagen": "poster_shawshank"
+  },
+  {
+    "titulo": "Jurassic Park",
+    "descripcion": "Un parque de dinosaurios clonados se convierte en una trampa mortal cuando los sistemas fallan.",
+    "pelicula": "jurassic_park",
+    "imagen": "poster_jurassic_park"
+  },
+  {
+    "titulo": "The Lord of the Rings: The Fellowship of the Ring",
+    "descripcion": "Un hobbit inicia un viaje épico para destruir un anillo de poder que amenaza a toda la Tierra Media.",
+    "pelicula": "lotr_fellowship",
+    "imagen": "poster_lotr_fellowship"
+  },
+  {
+    "titulo": "Harry Potter and the Sorcerer's Stone",
+    "descripcion": "Un niño descubre que es mago y entra en la escuela Hogwarts, donde aprende magia y su destino.",
+    "pelicula": "harry_potter_1",
+    "imagen": "poster_harry_potter_1"
+  },
+  {
+    "titulo": "Spider-Man",
+    "descripcion": "Un adolescente adquiere poderes arácnidos y aprende que todo poder conlleva responsabilidad.",
+    "pelicula": "spiderman",
+    "imagen": "poster_spiderman"
+  },
+  {
+    "titulo": "Iron Man",
+    "descripcion": "Un ingeniero multimillonario crea una armadura tecnológica para convertirse en un héroe.",
+    "pelicula": "ironman",
+    "imagen": "poster_ironman"
+  },
+  {
+    "titulo": "The Lion King",
+    "descripcion": "Un joven león huye tras la muerte de su padre, pero debe regresar para reclamar su trono.",
+    "pelicula": "lion_king",
+    "imagen": "poster_lion_king"
+  },
+  {
+    "titulo": "Toy Story",
+    "descripcion": "Los juguetes cobran vida cuando los humanos no están, viviendo aventuras llenas de amistad.",
+    "pelicula": "toy_story",
+    "imagen": "poster_toy_story"
+  },
+  {
+    "titulo": "The Godfather",
+    "descripcion": "La familia Corleone lucha por mantener su imperio mafioso mientras el poder pasa al siguiente heredero.",
+    "pelicula": "godfather",
+    "imagen": "poster_godfather"
+  },
+  {
+    "titulo": "Back to the Future",
+    "descripcion": "Un joven viaja al pasado en un coche modificado y debe asegurar su propio futuro.",
+    "pelicula": "back_to_future",
+    "imagen": "poster_back_to_future"
+  }
+]

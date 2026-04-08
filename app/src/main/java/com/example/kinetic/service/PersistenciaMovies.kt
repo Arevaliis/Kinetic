@@ -6,7 +6,7 @@ import org.json.JSONArray
 
 class PersistenciaMovies(private val context: Context) {
 
-    fun readMovies(): List<Movie>{
+     fun readMovies(): List<Movie>{
         val jsonName = context.assets.open("movies.json")
         val jsonString = jsonName.bufferedReader().use { it.readText() }
         val jsonArray = JSONArray(jsonString)

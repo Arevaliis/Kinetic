@@ -1,33 +1,38 @@
 package com.example.kinetic.ui
 
+import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.kinetic.R
-import com.example.kinetic.model.Movie
 import com.example.kinetic.model.MovieAdapter
+import com.example.kinetic.service.PersistenciaMovies
 
 class ListActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_list)
 
-        val recyclePeliculas: RecyclerView = findViewById(R.id.recyclerPeliculas)
-        recyclePeliculas.layoutManager = LinearLayoutManager(this)
+        val context: Context = this
 
-        val peliculas = listOf(
-            Movie("Video 1", R.drawable.ic_launcher_background, "Descripcion",
-                R.raw.video1 )
-        )
+        val recycleMovies: RecyclerView = findViewById(R.id.recyclerMovies)
+        recycleMovies.layoutManager = LinearLayoutManager(this)
 
-        val adapter = MovieAdapter(peliculas) { pelicula ->
-            val intent = Intent(this, VideoActivity::class.java)
-            intent.putExtra("pelicula", pelicula.pelicula)
+        val listaMovies = PersistenciaMovies(context).readMovies()
+
+        val adapter = MovieAdapter(listaMovies, context) { pelicula ->
+            val intent = Intent(this, MovieDetailActivity::class.java)
+
+            intent.putExtra("titulo", pelicula.titulo)
+            intent.putExtra("descripcion", pelicula.descripcion)
+            intent.putExtra("descripcion", pelicula.pelicula)
+            intent.putExtra("descripcion", pelicula.imagen)
+
             startActivity(intent)
         }
 
-        recyclePeliculas.adapter = adapter
+        recycleMovies.adapter = adapter
     }
 }

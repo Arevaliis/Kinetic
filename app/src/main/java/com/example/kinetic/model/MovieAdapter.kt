@@ -1,22 +1,28 @@
 package com.example.kinetic.model
 
+import android.content.Context
+import android.os.Build
+import android.text.Layout
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.annotation.RequiresApi
 import com.example.kinetic.R
 import androidx.recyclerview.widget.RecyclerView
 
 class MovieAdapter (
     private val lista:List<Movie>,
+    private val context: Context,
     private val onClick: (Movie) -> Unit
 
 ): RecyclerView.Adapter<MovieAdapter.ViewHolder>() {
 
     class ViewHolder(view: View): RecyclerView.ViewHolder(view){
-        // val titulo: TextView = view.findViewById()
-        // val imagen: ImageView = view.findViewById()
+        val titulo: TextView = view.findViewById(R.id.txtTitulo)
+        val descripcion: TextView = view.findViewById(R.id.txtDescripcion)
+        val imagen: ImageView = view.findViewById(R.id.imgMovie)
     }
 
     override fun onCreateViewHolder( parent: ViewGroup,  viewType: Int ): ViewHolder {
@@ -24,15 +30,24 @@ class MovieAdapter (
         return ViewHolder(vista)
     }
 
-    override fun onBindViewHolder(holder: MovieAdapter.ViewHolder, position: Int) {
-       /* val pelicula = lista[position]
+    @RequiresApi(Build.VERSION_CODES.O)
+    override fun onBindViewHolder(holder: ViewHolder, position: Int) {
+        val pelicula = lista[position]
 
         holder.titulo.text = pelicula.titulo
-        holder.imagen.setImageResource(pelicula.image)
+        holder.descripcion.text = pelicula.descripcion
+
+        val imageResId = context.resources.getIdentifier(
+            pelicula.imagen,
+            "drawable",
+            context.packageName
+        )
+
+        holder.imagen.setImageResource(imageResId)
 
         holder.itemView.setOnClickListener {
             onClick(pelicula)
-        }*/
+        }
     }
 
     override fun getItemCount(): Int {  return lista.size }

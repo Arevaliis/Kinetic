@@ -1,121 +1,121 @@
 [
   {
     "titulo": "Inception",
-    "descripcion": "Un ladrón experto en infiltrarse en los sueños de otras personas mediante tecnología avanzada es contratado para implantar una idea en la mente de un objetivo, enfrentándose a su propio pasado.",
+    "descripcion": "Un ladrón altamente especializado en el espionaje corporativo mediante la infiltración en los sueños de otras personas utiliza una avanzada tecnología para entrar en el subconsciente. Su habilidad lo convierte en un fugitivo internacional, pero recibe una última misión que podría redimirlo: implantar una idea en la mente de un objetivo, un proceso conocido como 'inception'. Durante la misión, deberá enfrentarse no solo a complejos niveles de sueños dentro de sueños, sino también a sus propios traumas del pasado que amenazan con sabotear la operación.",
     "pelicula": "inception",
     "imagen": "poster_inception"
   },
   {
     "titulo": "Interstellar",
-    "descripcion": "En un futuro donde la Tierra se vuelve inhabitable, un grupo de astronautas viaja a través de un agujero de gusano en busca de un nuevo hogar para la humanidad.",
+    "descripcion": "En un futuro cercano donde la Tierra sufre una crisis ambiental extrema que pone en peligro la supervivencia de la humanidad, un grupo de científicos y astronautas emprende una misión desesperada. A través de un agujero de gusano descubierto cerca de Saturno, viajan a otras galaxias en busca de planetas habitables. La historia combina ciencia, exploración espacial y emociones humanas profundas, especialmente el vínculo entre un padre y su hija, mientras el tiempo y la relatividad juegan un papel crucial en su viaje.",
     "pelicula": "interstellar",
     "imagen": "poster_interstellar"
   },
   {
     "titulo": "The Dark Knight",
-    "descripcion": "Batman enfrenta al Joker, un criminal caótico que pone a prueba los límites morales de Gotham.",
+    "descripcion": "Batman se enfrenta a uno de sus enemigos más peligrosos: el Joker, un criminal impredecible que busca sumir Gotham en el caos total. A medida que el Joker ejecuta una serie de ataques cada vez más elaborados y psicológicos, pone a prueba no solo las habilidades físicas de Batman, sino también sus principios morales. La película explora temas como el orden frente al caos, la justicia y el sacrificio, mientras Gotham se convierte en un campo de batalla moral.",
     "pelicula": "dark_knight",
     "imagen": "poster_dark_knight"
   },
   {
     "titulo": "Titanic",
-    "descripcion": "Un romance entre dos jóvenes de distintas clases sociales a bordo del transatlántico Titanic, que terminará en tragedia.",
+    "descripcion": "Ambientada a bordo del famoso transatlántico RMS Titanic, la historia sigue el romance entre Jack, un joven artista de clase baja, y Rose, una joven de la alta sociedad atrapada en un compromiso sin amor. A pesar de sus diferencias sociales, ambos se enamoran profundamente. Sin embargo, su historia se desarrolla en medio del trágico hundimiento del barco tras chocar con un iceberg, convirtiendo su romance en una lucha por la supervivencia en una de las mayores tragedias marítimas de la historia.",
     "pelicula": "titanic",
     "imagen": "poster_titanic"
   },
   {
     "titulo": "Avatar",
-    "descripcion": "Un exmarine se infiltra en el planeta Pandora, donde termina involucrándose en la lucha entre humanos invasores y los Na'vi.",
+    "descripcion": "En el planeta Pandora, un mundo exuberante habitado por la especie Na'vi, los humanos buscan explotar un valioso recurso natural. Jake Sully, un exmarine parapléjico, participa en un programa que le permite controlar un cuerpo avatar para infiltrarse entre los Na'vi. A medida que se integra en su cultura, desarrolla un vínculo emocional con el planeta y su gente, lo que lo lleva a cuestionar su misión original y tomar partido en el conflicto entre los colonizadores humanos y los nativos.",
     "pelicula": "avatar",
     "imagen": "poster_avatar"
   },
   {
     "titulo": "Gladiator",
-    "descripcion": "Un general romano traicionado se convierte en gladiador para vengarse del emperador que destruyó su vida.",
+    "descripcion": "Máximo Décimo Meridio, un respetado general romano, es traicionado por el hijo del emperador, Cómodo, quien asesina a su padre y toma el poder. Tras perder a su familia y ser reducido a la esclavitud, Máximo es obligado a luchar como gladiador en la arena. Con el tiempo, se convierte en un símbolo de resistencia y busca vengarse del emperador mientras inspira al pueblo romano a desafiar la corrupción del imperio.",
     "pelicula": "gladiator",
     "imagen": "poster_gladiator"
   },
   {
     "titulo": "Forrest Gump",
-    "descripcion": "La vida de Forrest Gump, un hombre sencillo que sin querer participa en eventos históricos clave de Estados Unidos.",
+    "descripcion": "Forrest Gump es un hombre con una inteligencia limitada pero con un corazón enorme, cuya vida extraordinaria lo lleva a participar involuntariamente en algunos de los momentos más importantes de la historia de Estados Unidos. Desde la guerra de Vietnam hasta el movimiento por los derechos civiles, Forrest presencia y forma parte de eventos históricos mientras persigue su amor de infancia, Jenny, demostrando que la determinación y la bondad pueden superar cualquier obstáculo.",
     "pelicula": "forrest_gump",
     "imagen": "poster_forrest_gump"
   },
   {
     "titulo": "The Matrix",
-    "descripcion": "Un hacker descubre que la realidad es una simulación creada por máquinas que esclavizan a la humanidad.",
+    "descripcion": "Neo, un hacker informático, descubre que la realidad tal como la conoce es en realidad una simulación creada por máquinas inteligentes que han esclavizado a la humanidad. Guiado por Morfeo y Trinity, Neo se adentra en el mundo real y comienza a comprender su papel como 'El Elegido'. La película explora conceptos filosóficos como la realidad, la libertad y el destino, combinados con acción innovadora y efectos visuales revolucionarios.",
     "pelicula": "matrix",
     "imagen": "poster_matrix"
   },
   {
     "titulo": "Fight Club",
-    "descripcion": "Un hombre insatisfecho crea un club de lucha clandestino que evoluciona en algo mucho más peligroso.",
+    "descripcion": "Un hombre insomne y desencantado con su vida corporativa conoce a Tyler Durden, un carismático y anárquico vendedor de jabón. Juntos fundan un club de lucha clandestino como una forma de liberar la frustración masculina reprimida. Sin embargo, el proyecto evoluciona hacia algo mucho más oscuro y peligroso, desafiando las normas sociales y llevando al protagonista a cuestionar su propia identidad y la realidad que lo rodea.",
     "pelicula": "fight_club",
     "imagen": "poster_fight_club"
   },
   {
     "titulo": "Pulp Fiction",
-    "descripcion": "Historias entrelazadas de criminales en Los Ángeles con violencia, humor negro y destinos cruzados.",
+    "descripcion": "Esta película entrelaza múltiples historias de criminales en Los Ángeles, incluyendo asesinos a sueldo, boxeadores y mafiosos. A través de una narrativa no lineal, se presentan situaciones cargadas de violencia, humor negro y diálogos memorables. Los destinos de los personajes se cruzan de formas inesperadas, creando una obra única que redefine el cine de crimen moderno.",
     "pelicula": "pulp_fiction",
     "imagen": "poster_pulp_fiction"
   },
   {
     "titulo": "The Shawshank Redemption",
-    "descripcion": "Un banquero condenado injustamente encuentra esperanza y amistad dentro de una prisión de máxima seguridad.",
+    "descripcion": "Andy Dufresne, un banquero condenado injustamente por el asesinato de su esposa, es enviado a la prisión de Shawshank. Allí forma una profunda amistad con Red, otro recluso, y poco a poco encuentra formas de mantener la esperanza en un entorno brutal. A lo largo de los años, Andy utiliza su inteligencia para ganarse la confianza de los guardias y planear una sorprendente forma de recuperar su libertad.",
     "pelicula": "shawshank",
     "imagen": "poster_shawshank"
   },
   {
     "titulo": "Jurassic Park",
-    "descripcion": "Un parque de dinosaurios clonados se convierte en una trampa mortal cuando los sistemas fallan.",
+    "descripcion": "Un millonario crea un parque temático en una isla remota donde los dinosaurios han sido clonados mediante ingeniería genética. Antes de abrir al público, invita a un grupo de expertos para evaluar la seguridad del parque. Sin embargo, un sabotaje provoca el fallo de los sistemas de control, liberando a las criaturas y convirtiendo la visita en una lucha desesperada por sobrevivir frente a depredadores prehistóricos.",
     "pelicula": "jurassic_park",
     "imagen": "poster_jurassic_park"
   },
   {
     "titulo": "The Lord of the Rings: The Fellowship of the Ring",
-    "descripcion": "Un hobbit inicia un viaje épico para destruir un anillo de poder que amenaza a toda la Tierra Media.",
+    "descripcion": "Frodo Bolsón, un joven hobbit, hereda un poderoso anillo que puede destruir el mundo si cae en las manos equivocadas. Junto a una comunidad formada por humanos, elfos, enanos y otros hobbits, emprende un peligroso viaje para destruir el anillo en el Monte del Destino. Enfrentan enemigos, tentaciones y desafíos que pondrán a prueba su valentía y amistad.",
     "pelicula": "lotr_fellowship",
     "imagen": "poster_lotr_fellowship"
   },
   {
     "titulo": "Harry Potter and the Sorcerer's Stone",
-    "descripcion": "Un niño descubre que es mago y entra en la escuela Hogwarts, donde aprende magia y su destino.",
+    "descripcion": "Harry Potter, un niño huérfano que vive con sus crueles tíos, descubre en su undécimo cumpleaños que es un mago. Es invitado a asistir a Hogwarts, una escuela de magia donde aprende hechizos, hace amigos y descubre secretos sobre su pasado. Mientras tanto, se enfrenta a una amenaza oculta relacionada con la piedra filosofal, un objeto que otorga la inmortalidad.",
     "pelicula": "harry_potter_1",
     "imagen": "poster_harry_potter_1"
   },
   {
     "titulo": "Spider-Man",
-    "descripcion": "Un adolescente adquiere poderes arácnidos y aprende que todo poder conlleva responsabilidad.",
+    "descripcion": "Peter Parker, un estudiante de secundaria, obtiene habilidades sobrehumanas tras ser mordido por una araña modificada genéticamente. Al principio usa sus poderes para beneficio personal, pero tras una tragedia que podría haber evitado, aprende una importante lección: con gran poder viene una gran responsabilidad. Decide entonces convertirse en el héroe Spider-Man para proteger a su ciudad.",
     "pelicula": "spiderman",
     "imagen": "poster_spiderman"
   },
   {
     "titulo": "Iron Man",
-    "descripcion": "Un ingeniero multimillonario crea una armadura tecnológica para convertirse en un héroe.",
+    "descripcion": "Tony Stark, un brillante ingeniero y multimillonario fabricante de armas, es secuestrado por terroristas que le obligan a construir un arma. En su lugar, crea una armadura avanzada que le permite escapar. Tras esta experiencia, decide cambiar el rumbo de su vida y utiliza su tecnología para convertirse en Iron Man, un superhéroe que combate amenazas globales.",
     "pelicula": "ironman",
     "imagen": "poster_ironman"
   },
   {
     "titulo": "The Lion King",
-    "descripcion": "Un joven león huye tras la muerte de su padre, pero debe regresar para reclamar su trono.",
+    "descripcion": "Simba, un joven león heredero del trono, huye de su hogar tras la muerte de su padre, Mufasa, causada por la traición de su tío Scar. Creciendo lejos de su reino, aprende a sobrevivir y olvidar su pasado. Sin embargo, con la ayuda de viejos amigos, regresa para enfrentarse a Scar y reclamar su lugar como rey, restaurando el equilibrio en la sabana.",
     "pelicula": "lion_king",
     "imagen": "poster_lion_king"
   },
   {
     "titulo": "Toy Story",
-    "descripcion": "Los juguetes cobran vida cuando los humanos no están, viviendo aventuras llenas de amistad.",
+    "descripcion": "Woody, un vaquero de juguete, es el favorito de su dueño Andy hasta que llega Buzz Lightyear, un moderno juguete espacial que amenaza su posición. A medida que ambos compiten por la atención de Andy, se ven obligados a trabajar juntos cuando se pierden. En su aventura, descubren el valor de la amistad y el compañerismo.",
     "pelicula": "toy_story",
     "imagen": "poster_toy_story"
   },
   {
     "titulo": "The Godfather",
-    "descripcion": "La familia Corleone lucha por mantener su imperio mafioso mientras el poder pasa al siguiente heredero.",
+    "descripcion": "La historia de la familia mafiosa Corleone, liderada por Don Vito Corleone, muestra el funcionamiento interno del crimen organizado en Estados Unidos. A medida que el poder pasa a su hijo Michael, quien inicialmente quería mantenerse alejado del negocio, la familia enfrenta traiciones, violencia y decisiones difíciles que marcarán su destino para siempre.",
     "pelicula": "godfather",
     "imagen": "poster_godfather"
   },
   {
     "titulo": "Back to the Future",
-    "descripcion": "Un joven viaja al pasado en un coche modificado y debe asegurar su propio futuro.",
+    "descripcion": "Marty McFly, un adolescente, es enviado accidentalmente al pasado en un coche DeLorean modificado por el excéntrico científico Doc Brown. Allí conoce a sus padres en su juventud y debe asegurarse de que se enamoren para garantizar su propia existencia. Mientras intenta regresar al presente, vive situaciones cómicas y tensas que alteran la línea temporal.",
     "pelicula": "back_to_future",
     "imagen": "poster_back_to_future"
   }

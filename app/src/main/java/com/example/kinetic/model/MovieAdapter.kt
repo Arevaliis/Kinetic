@@ -2,7 +2,6 @@ package com.example.kinetic.model
 
 import android.content.Context
 import android.os.Build
-import android.text.Layout
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -45,9 +44,7 @@ class MovieAdapter (
 
         holder.imagen.setImageResource(imageResId)
 
-        holder.itemView.setOnClickListener {
-            onClick(pelicula)
-        }
+        holder.itemView.setOnClickListener { onClick(pelicula) }
     }
 
     override fun getItemCount(): Int {  return lista.size }

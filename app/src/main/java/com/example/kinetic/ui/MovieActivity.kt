@@ -10,7 +10,9 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.net.toUri
 import com.example.kinetic.R
 
-// TODO Agregar videos, mejorar UI y conseguir pantalla completa.
+// TODO Mejorar UI y conseguir pantalla completa.
+// TODO Se puede poner que se gire automaticamente al ver pelicula
+// TODO CAMBIAR VIDEOS MAS LIGEROS
 
 class MovieActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -29,10 +31,6 @@ class MovieActivity : AppCompatActivity() {
         supportActionBar?.hide()
 
         setContentView(R.layout.activity_movie)
-
-        window.decorView.setOnApplyWindowInsetsListener { v, insets ->
-            insets.consumeSystemWindowInsets()
-        }
 
         val videoView : VideoView = findViewById(R.id.videoView)
         val movie = intent.getStringExtra("pelicula")

@@ -13,3 +13,14 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# Android build
+build/
+app/build/
+app/release/
+
+# APKs
+*.apk
+
+# Gradle
+.gradle/

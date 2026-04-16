@@ -11,6 +11,9 @@ import androidx.annotation.RequiresApi
 import com.example.kinetic.R
 import androidx.recyclerview.widget.RecyclerView
 
+/**
+ * Clase encargada de la configuración del Adapter para mostrar las movies dentro de un RecyclerView
+ */
 class MovieAdapter (
     private val lista:List<Movie>,
     private val context: Context,
@@ -18,17 +21,22 @@ class MovieAdapter (
 
 ): RecyclerView.Adapter<MovieAdapter.ViewHolder>() {
 
+    /**
+     * Clase que contiene las referencias de cada elemento dentro del layout
+     */
     class ViewHolder(view: View): RecyclerView.ViewHolder(view){
         val titulo: TextView = view.findViewById(R.id.txtTitulo)
         val descripcion: TextView = view.findViewById(R.id.txtDescripcion)
         val imagen: ImageView = view.findViewById(R.id.imgMovie)
     }
 
+    // Crea la vista del layout
     override fun onCreateViewHolder( parent: ViewGroup,  viewType: Int ): ViewHolder {
         val vista = LayoutInflater.from(parent.context).inflate(R.layout.item_movie, parent, false)
         return ViewHolder(vista)
     }
 
+    // Vincula la información de la movie a cada elemento creado en la class ViewHolder
     @RequiresApi(Build.VERSION_CODES.O)
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val pelicula = lista[position]
@@ -47,5 +55,6 @@ class MovieAdapter (
         holder.itemView.setOnClickListener { onClick(pelicula) }
     }
 
+    // Devuelve el tamaño de la lista de movies
     override fun getItemCount(): Int {  return lista.size }
 }

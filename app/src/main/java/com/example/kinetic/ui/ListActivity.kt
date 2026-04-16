@@ -10,16 +10,21 @@ import com.example.kinetic.R
 import com.example.kinetic.model.MovieAdapter
 import com.example.kinetic.service.PersistenciaMovies
 
+/**
+ * Activity encargada de mostrar el catalogo de películas
+ */
 class ListActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_list)
 
+        // Contexto actual de la Activity
         val context: Context = this
 
         val recycleMovies: RecyclerView = findViewById(R.id.recyclerMovies)
         recycleMovies.layoutManager = LinearLayoutManager(this)
 
+        // Leemos los datos del JSON
         val listaMovies = PersistenciaMovies(context).readMovies()
 
         val adapter = MovieAdapter(listaMovies, context) { pelicula ->

@@ -9,6 +9,9 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.example.kinetic.R
 
+/**
+ * Activity que muestra en detalle la movie seleccionada
+ */
 class MovieDetailActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -27,6 +30,7 @@ class MovieDetailActivity : AppCompatActivity() {
         val pelicula = intent.getStringExtra("pelicula")
         val poster = intent.getStringExtra("imagen")
 
+        // Convierte el String con el nombre del poster de la movie en un recurso Android
         val imageResId = context.resources.getIdentifier(
             poster,
             "drawable",

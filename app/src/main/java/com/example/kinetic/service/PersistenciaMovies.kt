@@ -4,8 +4,16 @@ import android.content.Context
 import com.example.kinetic.model.Movie
 import org.json.JSONArray
 
+/**
+ * Clase encargada de obtener los datos del JSON
+ */
 class PersistenciaMovies(private val context: Context) {
 
+    /**
+     * Lee el contenido del archivo JSON y agrega cada una de las movies a la lista
+     *
+     * @return Lista de movies
+     */
      fun readMovies(): List<Movie>{
         val jsonName = context.assets.open("movies.json")
         val jsonString = jsonName.bufferedReader().use { it.readText() }
@@ -28,6 +36,4 @@ class PersistenciaMovies(private val context: Context) {
 
         return movies
     }
-
 }
-

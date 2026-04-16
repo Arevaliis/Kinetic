@@ -6,6 +6,9 @@ import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import com.example.kinetic.R
 
+/**
+ * Activity para la pantalla inicial
+ */
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -13,6 +16,7 @@ class MainActivity : AppCompatActivity() {
 
         val butonEntrar: Button = findViewById(R.id.botonEntrar)
 
+        // Al pulsar en el boton accedemos al videoclub
         butonEntrar.setOnClickListener {
 
          val intent = Intent(this, ListActivity::class.java)
